@@ -9,8 +9,11 @@ for the next crash / predict the next crash
 
 
 Bull Markets analysis: 
+
+Out Transactions(sender):
 1. May june 2011  Block Height 121000 to  132000 (5,6,7)
 2. March April 2013 Block Height 224000 to 232000 (138 to 161)
 3. Nov Dec 2013 Block Height 328000 to 335000 (505 to 546)
 4. Nov Dec 2017 Block Height 494000 to 501000 (2710 to 2850)
 
+In Transactions (Receiver):
