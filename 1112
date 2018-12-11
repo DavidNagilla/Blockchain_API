@@ -1,0 +1,6 @@
+import pandas as pd
+blk = pd.read_csv(r"E:\blockchain\split\transactions-0-537556_chunk1.csv",names = ["txid"],dtype={'txid':str})
+blk["txid"][0]
+
+from datetime import datetime
+datetime.utcfromtimestamp(1284101485).strftime('%Y-%m-%d'+" "+'T%H:%M:%SZ')
