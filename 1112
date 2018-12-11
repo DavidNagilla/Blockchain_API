@@ -4,3 +4,8 @@ blk["txid"][0]
 
 from datetime import datetime
 datetime.utcfromtimestamp(1284101485).strftime('%Y-%m-%d'+" "+'T%H:%M:%SZ')
+
+
+import pandas as pd
+filenames=[r'transactions-0-537556_chunk5.csv','transactions-0-537556_chunk6.csv','transactions-0-537556_chunk7.csv']
+combined_csv = pd.concat( [ pd.read_csv(f,sep=';',names = ["txid", "hash", "version", "lock"]) for f in filenames ] )
