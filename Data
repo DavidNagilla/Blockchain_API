@@ -1,0 +1,7 @@
+Txouts.dat
+
+Contains the processed data for the dates considered in the format:
+TxID, AddID, Sum, BlockID, Time
+
+Transaction ID is unique, where as Addr can repeat n times. 
+Cluster AddID based on the node degree, frequency and sum of the transaction values. 
